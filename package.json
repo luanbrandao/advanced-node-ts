@@ -1,0 +1,30 @@
+{
+  "name": "advanced-node-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luanbrandao/advanced-node-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luanbrandao/advanced-node-ts/issues"
+  },
+  "homepage": "https://github.com/luanbrandao/advanced-node-ts#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "rimraf": "^5.0.1"
+  }
+}
