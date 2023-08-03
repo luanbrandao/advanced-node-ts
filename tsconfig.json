@@ -5,7 +5,14 @@
     "target": "es2021" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
     "sourceMap": true /* ajuda nos testes */,
     "skipLibCheck": true /* Skip type checking all .d.ts files. */,
-    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+    "module": "CommonJS" /*habilita os imports com 'export * from' *, muda o import para require*/,
+    "moduleResolution": "node" /* habilita a importação 'export * from'  */,
+    "esModuleInterop": true /*require/import pode usar vários juntos.*/,
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"]
+    }
   },
   "include": ["src"]
 }

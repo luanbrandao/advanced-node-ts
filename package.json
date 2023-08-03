@@ -2,8 +2,8 @@
   "name": "advanced-node-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "start": "node dist/main/api",
     "build": "rimraf dist && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,12 +19,15 @@
   },
   "homepage": "https://github.com/luanbrandao/advanced-node-ts#readme",
   "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^20.4.6",
     "typescript": "^5.1.6"
   },
   "engines": {
     "node": "16.x"
   },
   "dependencies": {
+    "module-alias": "^2.2.3",
     "rimraf": "^5.0.1"
   }
 }
