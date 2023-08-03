@@ -12,7 +12,13 @@
     "baseUrl": "src",
     "paths": {
       "@/*": ["*"]
-    }
+    },
+    "strict": true /* um atalho para habilitar as configs abaixo */
+    // "strictNullChecks": true, /* melhora a validação dos types */
+    // "strictFunctionTypes": true, /* melhora a validação para interfaces */
+    // "strictPropertyInitialization": true
+    // "noImplicitAny": true
   },
-  "include": ["src"]
+  "experimentalDecorators": true,
+  "include": ["src"] /*inclui todos os arquivos do src no dist quando fizer o*/
 }
