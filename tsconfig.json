@@ -11,14 +11,21 @@
     "esModuleInterop": true /*require/import pode usar vários juntos.*/,
     "baseUrl": "src",
     "paths": {
-      "@/*": ["*"]
+      "@/*": ["*"],
+      "@/tests/*": ["../tests/*"]
     },
-    "strict": true /* um atalho para habilitar as configs abaixo */
+    "strict": true /* um atalho para habilitar as configs abaixo */,
     // "strictNullChecks": true, /* melhora a validação dos types */
     // "strictFunctionTypes": true, /* melhora a validação para interfaces */
     // "strictPropertyInitialization": true
     // "noImplicitAny": true
+
+    //
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
   },
-  "experimentalDecorators": true,
-  "include": ["src"] /*inclui todos os arquivos do src no dist quando fizer o*/
+  "include": [
+    "src",
+    "tests"
+  ] /*inclui todos os arquivos do src no dist quando fizer o*/
 }
