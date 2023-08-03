@@ -4,4 +4,7 @@ npx tsc --init
 npm i rimraf
 npm i module-alias
 npm i -D @types/module-alias
- npm i -D @types/node
+npm i -D @types/node
+
+npm i -D lint-staged
+npm i -D husky
